@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/snowflake-trio.gif" alt="HyperCool 3D snowflakes" width="760">
+  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
 </p>
 
 <p align="center">
