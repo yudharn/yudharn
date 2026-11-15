@@ -24,7 +24,7 @@
 Bug reports go in the Issues tab of each repo.
 
 ---
-
+## My Project HyperCool
 <p align="center">
   <img src="assets/banner-rounded.svg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
 </p>
