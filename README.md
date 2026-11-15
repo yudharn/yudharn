@@ -12,10 +12,6 @@
 
 **[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
 
-## Tools
-
-KernelSU, Magisk, SUSFS, Linux kernel, LLVM/Clang, GitHub Actions, Shell.
-
 ## Contact
 
 - Melt Rebase: [t.me/meltrebase](https://t.me/meltrebase)
