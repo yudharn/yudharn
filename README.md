@@ -1,6 +1,7 @@
 ## About
 
-I'm Yudharn. I build Android kernels mostly for POCO F5 (Marble) and root modules
+### I'm Yudharn. I build Android kernels mostly for POCO F5 (Marble) and root modules
+
 ## Projects
 
 **[HyperCool](https://github.com/yudharn/HyperCool)** — KernelSU / Magisk module that reduces heat and battery drain on Android.
