@@ -16,27 +16,6 @@
 
 **[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
 
-## Contact
-
-<p>
-  <a href="https://t.me/meltrebase"><img src="assets/badge-melt-rebase-v2.svg" alt="Melt Rebase on Telegram" height="32"></a>
-  &nbsp;
-  <a href="https://t.me/ModuleArchives"><img src="assets/badge-module-archives-v2.svg" alt="Module Archives on Telegram" height="32"></a>
-</p>
-
-Bug reports go in the Issues tab of each repo.
-
-## ⚠️ Disclaimer
-
-Kernels, recovery, ROM ports, and root modules can change core parts of your device. Use everything here **at your own risk**.
-
-- Back up your data (especially `boot`, `vendor_boot`, and `persist`) before flashing.
-- Unlocking the bootloader and rooting may void your warranty.
-- Some banking, payment, and game apps may stop working on rooted devices.
-- I am not responsible for bootloops, bricked devices, data loss, or any other damage.
-- Only flash files made for your exact device (POCO F5 / Redmi Note 12 Turbo, marble).
-
-Read the instructions in each repo before you flash.
 ---
 ## My Project HyperCool
 <p align="center">
