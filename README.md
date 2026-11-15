@@ -12,7 +12,7 @@
 
 **[POCOF5-Melt-Rebase-Kernel-Marble](https://github.com/yudharn/POCOF5-Melt-Rebase-Kernel-Marble)** — Melt Rebase kernel for the Redmi Note 12 Turbo / POCO F5.
 
-**[OrangeFox-For-Marble](https://github.com/yudharn/OrengeFox-For-Marble)** — OrangeFox recovery for the Redmi Note 12 Turbo / POCO F5.
+**[OrengeFox-For-Marble](https://github.com/yudharn/OrengeFox-For-Marble)** — OrangeFox recovery for the Redmi Note 12 Turbo / POCO F5.
 
 **[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
 
@@ -47,5 +47,5 @@ Bug reports go in the Issues tab of each repo.
 <p align="center">
   <a href="https://t.me/ModuleArchives"><img src="assets/badge-telegram.svg" alt="Telegram channel" height="32"></a>
   &nbsp;
-  <a href="https://github.com/yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn" height="32"></a>
+  <a href="https://t.me/Yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn" height="32"></a>
 </p>
