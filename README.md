@@ -23,5 +23,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="https://t.me/ModuleArchives">Telegram channel</a> · <a href="https://github.com/yudharn">Dev</a></sub>
+  <a href="https://t.me/ModuleArchives"><img src="assets/badge-telegram.svg" alt="Telegram channel"></a>
+  &nbsp;
+  <a href="https://github.com/yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn"></a>
 </p>
