@@ -18,8 +18,11 @@
 
 ## Contact
 
-- Melt Rebase: [t.me/meltrebase](https://t.me/meltrebase)
-- Module Archives: [t.me/ModuleArchives](https://t.me/ModuleArchives)
+<p>
+  <a href="https://t.me/meltrebase"><img src="assets/badge-melt-rebase.svg" alt="Melt Rebase on Telegram" height="32"></a>
+  &nbsp;
+  <a href="https://t.me/ModuleArchives"><img src="assets/badge-module-archives.svg" alt="Module Archives on Telegram" height="32"></a>
+</p>
 
 Bug reports go in the Issues tab of each repo.
 
