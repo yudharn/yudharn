@@ -1,3 +1,30 @@
+## About
+
+I'm Yudharn. I build Android kernels and root modules, mostly for POCO F5 (Marble)
+
+## Projects
+
+**[HyperCool](https://github.com/yudharn/HyperCool)** — KernelSU / Magisk module that reduces heat and battery drain on Android.
+
+**[POCOF5-Melt-Rebase-Kernel-Marble](https://github.com/yudharn/POCOF5-Melt-Rebase-Kernel-Marble)** — Melt Rebase kernel for the Redmi Note 12 Turbo / POCO F5.
+
+**[OrangeFox-For-Marble](https://github.com/yudharn/OrengeFox-For-Marble)** — OrangeFox recovery for the Redmi Note 12 Turbo / POCO F5.
+
+**[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
+
+## Tools
+
+KernelSU, Magisk, SUSFS, Linux kernel, LLVM/Clang, GitHub Actions, Shell.
+
+## Contact
+
+- Melt Rebase: [t.me/meltrebase](https://t.me/meltrebase)
+- Module Archives: [t.me/ModuleArchives](https://t.me/ModuleArchives)
+
+Bug reports go in the Issues tab of each repo.
+
+---
+
 <p align="center">
   <img src="assets/banner-rounded.svg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
 </p>
