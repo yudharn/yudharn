@@ -1,18 +1,17 @@
 ## About
 
-### I'm Yudharn. I build Android kernels mostly for POCO F5 (Marble) and KernelSU / Magisk modules
+I'm **Yudharn**. I build Android kernels mostly for **POCO F5 (Marble)** and **KernelSU / Magisk modules**.
 
 ## Projects
 
-**[HyperCool](https://github.com/yudharn/HyperCool)** — KernelSU / Magisk module that reduces heat and battery drain on Android.
-
-**[POCOF5-Melt-Rebase-Kernel-Marble](https://github.com/yudharn/POCOF5-Melt-Rebase-Kernel-Marble)** — Melt Rebase kernel for the Redmi Note 12 Turbo / POCO F5.
-
-**[OrengeFox-For-Marble](https://github.com/yudharn/OrengeFox-For-Marble)** — OrangeFox recovery for the Redmi Note 12 Turbo / POCO F5.
-
-**[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
+- **[HyperCool](https://github.com/yudharn/HyperCool)** — KernelSU / Magisk module that reduces heat and battery drain on Android.
+- **[POCOF5-Melt-Rebase-Kernel-Marble](https://github.com/yudharn/POCOF5-Melt-Rebase-Kernel-Marble)** — Melt Rebase kernel for the Redmi Note 12 Turbo / POCO F5.
+<!-- Repo name still has the typo "Orenge". After renaming the repo to OrangeFox-For-Marble, update the URL below. -->
+- **[OrangeFox-For-Marble](https://github.com/yudharn/OrengeFox-For-Marble)** — OrangeFox recovery for the Redmi Note 12 Turbo / POCO F5.
+- **[Porting-HyperOS-Marble](https://github.com/yudharn/Porting-HyperOS-Marble)** — HyperOS ROM porting for marble.
 
 ---
+
 ## My Project HyperCool
 
 <p align="center">
@@ -20,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
+  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="600">
 </p>
 
 <p align="center">
@@ -40,3 +39,9 @@
   &nbsp;
   <a href="https://t.me/Yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn" height="32"></a>
 </p>
+
+### Install
+
+1. Download the latest zip from [Releases](https://github.com/yudharn/HyperCool/releases/latest).
+2. Open KernelSU / Magisk manager → **Modules** → **Install from storage**.
+3. Pick the zip, then reboot.
