@@ -14,4 +14,6 @@
   <a href="https://t.me/ModuleArchives"><img src="assets/badge-telegram.svg" alt="Telegram channel" height="40"></a>
   &nbsp;
   <a href="https://github.com/yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn" height="40"></a>
+  &nbsp;
+  <a href="https://github.com/yudharn/HyperCool/releases/latest"><img src="assets/badge-release.svg" alt="Latest HyperCool release" height="40"></a>
 </p>
