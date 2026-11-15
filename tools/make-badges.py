@@ -14,7 +14,7 @@ import urllib.error
 import urllib.request
 
 BASE = "https://raw.githubusercontent.com/yudharn/HyperCool/master/docs/badges"
-NAMES = ("downloads", "stars", "android", "release")
+NAMES = ("downloads", "android", "release")
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets"
 
 
