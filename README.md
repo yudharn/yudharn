@@ -1,9 +1,5 @@
 ## About
 
-<p align="center">
-  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
-</p>
-
 ### I'm Yudharn. I build Android kernels mostly for POCO F5 (Marble) and KernelSU / Magisk modules
 
 ## Projects
@@ -18,6 +14,11 @@
 
 ---
 ## My Project HyperCool
+
+<p align="center">
+  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
+</p>
+
 <p align="center">
   <img src="assets/banner-rounded.svg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
 </p>
