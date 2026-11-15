@@ -11,19 +11,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yudharn/HyperCool/releases"><img src="assets/badge-downloads.svg" alt="HyperCool downloads"></a>
+  <a href="https://github.com/yudharn/HyperCool/releases"><img src="assets/badge-downloads.svg" alt="HyperCool downloads" height="32"></a>
   &nbsp;
-  <a href="https://github.com/yudharn/HyperCool/stargazers"><img src="assets/badge-stars.svg" alt="HyperCool stars"></a>
+  <a href="https://github.com/yudharn/HyperCool/stargazers"><img src="assets/badge-stars.svg" alt="HyperCool stars" height="32"></a>
   &nbsp;
-  <img src="assets/badge-android.svg" alt="Android 11+">
+  <img src="assets/badge-android.svg" alt="Android 11+" height="32">
 </p>
 
 <p align="center">
-  <a href="https://github.com/yudharn/HyperCool/releases/latest"><img src="assets/badge-release.svg" alt="Latest HyperCool release"></a>
+  <a href="https://github.com/yudharn/HyperCool/releases/latest"><img src="assets/badge-release.svg" alt="Latest HyperCool release" height="32"></a>
 </p>
 
 <p align="center">
-  <a href="https://t.me/ModuleArchives"><img src="assets/badge-telegram.svg" alt="Telegram channel"></a>
+  <a href="https://t.me/ModuleArchives"><img src="assets/badge-telegram.svg" alt="Telegram channel" height="32"></a>
   &nbsp;
-  <a href="https://github.com/yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn"></a>
+  <a href="https://github.com/yudharn"><img src="assets/badge-dev.svg" alt="Dev Yudharn" height="32"></a>
 </p>
