@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/snowflake.gif" alt="HyperCool 3D snowflake" width="220">
+  <img src="assets/banner.jpg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/banner.jpg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
+  <img src="assets/snowflake.gif" alt="HyperCool 3D snowflake" width="220">
 </p>
 
 <p align="center">
