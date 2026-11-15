@@ -16,11 +16,11 @@
 ## My Project HyperCool
 
 <p align="center">
-  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
+  <img src="assets/banner-rounded.svg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/banner-rounded.svg" alt="HyperCool — Heat &amp; Battery Fix for Android" width="100%">
+  <img src="assets/snowflake-trio-v2.gif" alt="HyperCool 3D snowflakes" width="760">
 </p>
 
 <p align="center">
