@@ -19,9 +19,9 @@
 ## Contact
 
 <p>
-  <a href="https://t.me/meltrebase"><img src="assets/badge-melt-rebase.svg" alt="Melt Rebase on Telegram" height="32"></a>
+  <a href="https://t.me/meltrebase"><img src="assets/badge-melt-rebase-v2.svg" alt="Melt Rebase on Telegram" height="32"></a>
   &nbsp;
-  <a href="https://t.me/ModuleArchives"><img src="assets/badge-module-archives.svg" alt="Module Archives on Telegram" height="32"></a>
+  <a href="https://t.me/ModuleArchives"><img src="assets/badge-module-archives-v2.svg" alt="Module Archives on Telegram" height="32"></a>
 </p>
 
 Bug reports go in the Issues tab of each repo.
