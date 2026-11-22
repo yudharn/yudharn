@@ -1,6 +1,6 @@
 ## About
 
-I'm **Yudharn**. I build Android kernels & Recovery OFOX mostly for **POCO F5 (Marble)** and **KernelSU / Magisk modules**.
+I'm **Yudharn**. I build **Android kernels & Recovery OFOX** mostly for **POCO F5 (Marble)** and **KernelSU / Magisk modules**.
 
 ## Projects
 
