@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "github-stats.svg"
 API = "https://api.github.com"
 GRAPHQL = API + "/graphql"
+VIEWS_API = "https://views.igorkowalczyk.dev/api/json/" + LOGIN
 UA = "yudharn-profile-stats"
 
 
@@ -73,12 +74,19 @@ def color_for(count: int) -> str:
     return "#c9d1d9"
 
 
-def tile(x: int, y: int, label: str, value: str) -> str:
+def tile(x: int, y: int, label: str, value: str, note: str | None = None) -> str:
+    note_text = (
+        f'<text x="12" y="40" fill="#8b949e" font-size="7.5" letter-spacing=".4">{esc(note)}</text>'
+        if note
+        else ""
+    )
+    value_size = 20 if len(value) <= 5 else 17 if len(value) <= 7 else 14
     return f"""<g transform="translate({x} {y})" clip-path="url(#tile-clip)">
   <rect width="163" height="62" fill="#2d333b"/>
   <rect x="101" width="62" height="62" fill="#3d444d"/>
   <text x="12" y="25" fill="#adbac7" font-size="9.5" letter-spacing=".6">{esc(label)}</text>
-  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">{esc(value)}</text>
+  {note_text}
+  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="{value_size}" font-weight="bold">{esc(value)}</text>
 </g>"""
 
 
@@ -110,17 +118,19 @@ def render(data: dict) -> str:
         ("CURRENT STREAK", fmt(data["current_streak"])),
         ("LONGEST STREAK", fmt(data["longest_streak"])),
         ("PULL REQUESTS", fmt(data["pull_requests"])),
-        ("ISSUES", fmt(data["issues"])),
+        ("PROFILE VIEWS", fmt(data["profile_views"]), "ALL TIME"),
         ("JOINED", str(data["joined_year"])),
     ]
     tiles = []
-    for i, (label, value) in enumerate(stats):
+    for i, (label, value, *extra) in enumerate(stats):
         row, col = divmod(i, 5)
-        tiles.append(tile(28 + col * 175, 104 + row * 74, label, value))
+        tiles.append(
+            tile(28 + col * 175, 104 + row * 74, label, value, extra[0] if extra else None)
+        )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480" role="img" aria-labelledby="stats-title stats-desc" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" text-rendering="geometricPrecision">
 <title id="stats-title">Yudharn GitHub stats</title>
-<desc id="stats-desc">GitHub contributions, repositories, stars, commits, pull requests, issues and streaks.</desc>
+<desc id="stats-desc">GitHub contributions, repositories, stars, commits, pull requests, profile views and streaks.</desc>
 <defs><clipPath id="tile-clip"><rect width="163" height="62" rx="8"/></clipPath></defs>
 <rect x=".5" y=".5" width="919" height="479" rx="16" fill="#0d1117" stroke="#30363d"/>
 
@@ -226,7 +236,7 @@ def main() -> int:
         "current_streak": current_streak,
         "longest_streak": longest_streak,
         "pull_requests": search_total("pr", token),
-        "issues": search_total("issue", token),
+        "profile_views": int(request_json(VIEWS_API)["views"]),
         "joined_year": user["created_at"][:4],
         "weeks": calendar["weeks"],
     }

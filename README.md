@@ -6,6 +6,8 @@ I'm **Yudharn**. I build **Android kernels & Recovery OFOX** mostly for **POCO F
 
 <p align="center">
   <a href="https://github.com/yudharn"><img src="assets/github-stats.svg" alt="Yudharn GitHub stats" width="100%"></a>
+  <!-- Profile views: tools/make-stats.py reads the count from the service below; this 1px image records visits. -->
+  <img src="https://views.igorkowalczyk.dev/api/badge/yudharn?style=flat&amp;label=Profile+views&amp;color=2d333b&amp;labelColor=3d444d" alt="" width="1" height="1">
 </p>
 
 ## Projects
