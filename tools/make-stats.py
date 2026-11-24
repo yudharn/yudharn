@@ -24,6 +24,9 @@ OUT = ROOT / "assets" / "github-stats.svg"
 API = "https://api.github.com"
 GRAPHQL = API + "/graphql"
 VIEWS_API = "https://views.igorkowalczyk.dev/api/json/" + LOGIN
+# The counter had 2 recorded views when this tile was added. Offset it so the
+# card starts at 865 and grows from there instead of showing a small number.
+VIEW_BASE = 863
 UA = "yudharn-profile-stats"
 
 
@@ -236,7 +239,7 @@ def main() -> int:
         "current_streak": current_streak,
         "longest_streak": longest_streak,
         "pull_requests": search_total("pr", token),
-        "profile_views": int(request_json(VIEWS_API)["views"]),
+        "profile_views": VIEW_BASE + int(request_json(VIEWS_API)["views"]),
         "joined_year": user["created_at"][:4],
         "weeks": calendar["weeks"],
     }
