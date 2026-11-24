@@ -31,13 +31,13 @@
   <rect x="101" width="62" height="62" fill="#3d444d"/>
   <text x="12" y="25" fill="#adbac7" font-size="9.5" letter-spacing=".6">TOTAL STARS</text>
   
-  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">49</text>
+  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">52</text>
 </g><g transform="translate(553 104)" clip-path="url(#tile-clip)">
   <rect width="163" height="62" fill="#2d333b"/>
   <rect x="101" width="62" height="62" fill="#3d444d"/>
   <text x="12" y="25" fill="#adbac7" font-size="9.5" letter-spacing=".6">COMMITS</text>
   
-  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">899</text>
+  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">900</text>
 </g><g transform="translate(728 104)" clip-path="url(#tile-clip)">
   <rect width="163" height="62" fill="#2d333b"/>
   <rect x="101" width="62" height="62" fill="#3d444d"/>
@@ -67,7 +67,7 @@
   <rect x="101" width="62" height="62" fill="#3d444d"/>
   <text x="12" y="25" fill="#adbac7" font-size="9.5" letter-spacing=".6">PROFILE VIEWS</text>
   <text x="12" y="40" fill="#8b949e" font-size="7.5" letter-spacing=".4">ALL TIME</text>
-  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">865</text>
+  <text x="132" y="40" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="bold">901</text>
 </g><g transform="translate(728 178)" clip-path="url(#tile-clip)">
   <rect width="163" height="62" fill="#2d333b"/>
   <rect x="101" width="62" height="62" fill="#3d444d"/>
