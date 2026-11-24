@@ -2,6 +2,12 @@
 
 I'm **Yudharn**. I build **Android kernels & Recovery OFOX** mostly for **POCO F5 (Marble)** and **KernelSU / Magisk modules**.
 
+## GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/yudharn"><img src="assets/github-stats.svg" alt="Yudharn GitHub stats" width="100%"></a>
+</p>
+
 ## Projects
 
 - **[HyperCool](https://github.com/yudharn/HyperCool)** — KernelSU / Magisk module that reduces heat and battery drain on Android.
